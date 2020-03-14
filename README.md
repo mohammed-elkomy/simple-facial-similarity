@@ -13,7 +13,7 @@ choosing a good margin is the reason for acceptable separation between positive 
 I made this by applying a batch normalization layer just before the L2 distance function which means the distance would range from 0 to number_of_features (in my case 8) so my margin is 1.5 since the range for L2 ouputs is [1,sqrt(8)]
 
 ## Interpreting results
-### for a query image and looking for nearest neighbours 
+### nearest neighbours setting
 The distance between each image and the query image is depicted above each image, for example the zero at the top left is the query image itself and nearest neighbours are listed from the left to right then from top to bottom
 ![Demo](https://i.imgur.com/WMlnkxV.png)
 
