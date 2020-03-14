@@ -13,5 +13,5 @@ choosing a good margin is the reason for acceptable separation between positive 
 I made this by applying a batch normalization layer just before the L2 distance function which means the distance would range from 0 to number_of_features (in my case 8) so my margin is 1.5 since the range for L2 ouputs is [1,sqrt(8)]
 
 ## Interpreting results
-![Demo](https://imgur.com/WMlnkxV)
+![Demo](https://i.imgur.com/WMlnkxV.png)
 
